@@ -172,20 +172,19 @@ Changes to `shared/` go through a pull request reviewed by every module.
 
 | Name | Module | GitHub |
 |---|---|---|
+| Hatice Günışık | | |
+| Zeynep Çelik | | |
+| Gülbin Coşkun | | |
 | Safa Nadeem | | |
 | Semih Çakır | | |
 | Enes Taha Kılıç | | |
-| Zeynep Çelik | | |
-| Hatice Günışık | | |
 | Ege Özer | | |
 | Emre Akpınar | | |
 | Ahmet Yaşar Göksü | | |
 | Ahmet Çolak | | |
-| Gülbin Coşkun | | |
 
 **Instructor:** Erkan Zergeroğlu
 
 ---
 
 <p align="center"><sub>STRATA · CENG 396 · We build safety, not assumptions.</sub></p>
-# CENG396-Group5
