@@ -1,0 +1,17 @@
+{
+  "type": "fixture_metadata",
+  "fixture_version": 1,
+  "trial_id": "m4_mock_01",
+  "origin": "synthetic",
+  "description": "Invented data only; not a producer handshake or final runtime metadata schema.",
+  "control_mode": "UNKNOWN",
+  "x_direction": "Configured positive horizontal X for illustration",
+  "cv_reference_frame": "fixed_support_trial_zero",
+  "sources": [
+    {"id": "cv_mock", "module": 3, "channels": ["BASE", "FLOOR_1", "FLOOR_2", "FLOOR_3"]},
+    {"id": "imu_mock", "module": 2, "channels": ["roof_accel_x"], "placement": "illustrative roof sensor, unconfirmed with M2", "reference_frame": "configured_sensor_x", "gravity_handling": "fixture values are invented; producer policy to be agreed"}
+  ],
+  "clock_maps": [
+    {"id": "synthetic_identity", "sources": ["cv_mock", "imu_mock"], "scale": 1, "offset_ms": 0, "method": "generator-controlled common synthetic time", "uncertainty_ms": 0}
+  ]
+}
